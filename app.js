@@ -10,7 +10,7 @@ const events = [];
 app.listen(3000);
 
 app.get('/', (req, res, next) => {
-    res.send("This is Prashanth Yerramilli");
+    res.send("This is Prashanth");
 });
 
 app.get('/documents/:format/:type', function (req, res) {
